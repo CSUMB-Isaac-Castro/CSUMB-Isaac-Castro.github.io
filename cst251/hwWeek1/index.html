@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Certificate</title>
+  </head>
+  <body>
+    
+    
+    <header>
+      <h1 id="title"> Pitbull Survey </h1>
+        <p> Survey description   </p>
+    </header>
+
+
+    <form id="survey-form">
+
+      <label id="name-label">First and last name<input type="text" id="name" placeholder="John Smith" required></label>
+        <br>
+      <label id="email-label">Email:<input type="email" id="email" placeholder="John123@gmail.com" required></label>
+        <br>
+      
+<h3> What is your gender</h3>
+<div>
+      <label><input type="radio" value="male" name="gender">Male</label>
+      <br>
+      <label><input type="radio" value="female" name="gender">Female</label>
+      <br>
+      <label><input type="radio" value="other" name="gender">other</label>
+</div>   
+
+
+
+<h3> What do you think of pitbulls</h3>
+  <p>
+    Select all that apply
+  </p>
+  <label><input type="checkbox" value="monsters"> They are monsters </label><br>
+
+  <label><input type="checkbox" value="wrong"> They are ugly </label><br>
+
+  <label><input type="checkbox" value="loving"> They are super cute and loving dogs </label><br>
+
+  <label><input type="checkbox" value="harmless"> They are harmless </label><br>
+
+  <label><input type="checkbox" value="idk"> What is a pitbull? </label>
+
+      <br><br>
+  What type of person are you?
+  <select id="dropdown">
+    <option> None       </option>
+    <option> Dog person </option>
+    <option> Cat person </option>
+    <option> Sad person </option>
+  </select>
+      
+      <br>
+
+<h3> What interactions have you had with a pitbull?:</h3>
+    <textarea name="pitbull_interactions" rows="5"> </textarea>  
+
+      <br><br>
+  
+      <label id="number-label">Rate your survey expirience<input type="number" id="number" min="0" max="10" placeholder="10" required></label>
+<br>
+<input type="submit" id="submit" name="submit">
+
+    </form>
+  
+
+    </body>
+    </html>
